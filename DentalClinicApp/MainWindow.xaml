@@ -21,8 +21,9 @@
 
 
         <!-- Список пациентов -->
-        <DataGrid x:Name="PatientsDataGrid" Grid.Row="1" ItemsSource="{Binding Patients}" AutoGenerateColumns="False" Margin="10">
+        <DataGrid x:Name="PatientsDataGrid" Grid.Row="1" ItemsSource="{Binding Patients}" AutoGenerateColumns="False" Margin="10" SelectionChanged="PatientsDataGrid_SelectionChanged">
             <DataGrid.Columns>
+                <DataGridTextColumn Header="№" Binding="{Binding Id}"/>
                 <DataGridTextColumn Header="Фамилия" Binding="{Binding LastName}"/>
                 <DataGridTextColumn Header="Имя" Binding="{Binding FirstName}"/>
                 <DataGridTextColumn Header="Отчество" Binding="{Binding SurName}"/>

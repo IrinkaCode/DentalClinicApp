@@ -21,30 +21,30 @@
 
         <!-- Поля для редактирования данных пациента -->
         <Label Content="Фамилия:" Margin="10,10,10,10"/>
-        <TextBox x:Name="LastNameTextBox" Margin="10,41,10,37" Grid.RowSpan="9"/>
+        <TextBox x:Name="LastNameTextBox" Margin="10,3,10,29" Grid.Row="8"/>
 
-        <Label Content="Имя:" Grid.Row="8" Margin="10,22,10,2"/>
-        <TextBox x:Name="FirstNameTextBox" Grid.Row="8" Margin="10,53,10,-21"/>
+        <Label Content="Имя:" Grid.Row="8" Margin="10,39,10,-15"/>
+        <TextBox x:Name="FirstNameTextBox" Grid.Row="8" Margin="10,77,10,-45"/>
 
-        <Label Content="Отчество:" Grid.Row="8" Margin="10,89,10,-65"/>
-        <TextBox x:Name="SurNameTextBox" Grid.Row="8" Margin="10,120,10,-88"/>
+        <Label Content="Отчество:" Grid.Row="8" Margin="10,107,10,-83"/>
+        <TextBox x:Name="SurNameTextBox" Grid.Row="8" Margin="10,145,10,-113"/>
 
-        <Label Content="Дата рождения:" Grid.Row="8" Margin="10,165,10,-141"/>
-        <DatePicker x:Name="DateOfBirthPicker" Grid.Row="8" Margin="10,196,10,-170"/>
+        <Label Content="Дата рождения:" Grid.Row="8" Margin="10,184,10,-160"/>
+        <DatePicker x:Name="DateOfBirthPicker" Grid.Row="8" Margin="10,222,10,-196"/>
 
-        <Label Content="Номер телефона:" Grid.Row="8" Margin="10,251,10,-227"/>
-        <TextBox x:Name="PhoneNumberTextBox" Grid.Row="8" Margin="10,287,10,-255"/>
+        <Label Content="Номер телефона:" Grid.Row="8" Margin="10,258,10,-234"/>
+        <TextBox x:Name="PhoneNumberTextBox" Grid.Row="8" Margin="10,296,10,-264"/>
 
-        <Label Content="Адрес:" Grid.Row="8" Margin="10,331,10,-311"/>
-        <TextBox x:Name="AddressTextBox" Grid.Row="8" Margin="10,366,10,-346"/>
+        <Label Content="Адрес:" Grid.Row="8" Margin="10,340,10,-320"/>
+        <TextBox x:Name="AddressTextBox" Grid.Row="8" Margin="10,382,10,-362"/>
 
-        <Label Content="История болезни:" Grid.Row="8" Margin="10,425,10,-405"/>
-        <TextBox x:Name="MedicalHistoryTextBox" Grid.Row="8" Margin="10,460,10,-440"/>
+        <Label Content="История болезни:" Grid.Row="8" Margin="10,435,10,-415"/>
+        <TextBox x:Name="MedicalHistoryTextBox" Grid.Row="8" Margin="10,489,10,-469"/>
 
         <!-- Кнопки для сохранения или отмены -->
         <StackPanel Grid.Row="12" Orientation="Horizontal" HorizontalAlignment="Right" Margin="10"/>
-        <Button Content="Сохранить" Click="Save_Click" Margin="150,545,150,-525" Grid.Row="8"/>
-        <Button Content="Отмена" Click="Cancel_Click" Margin="274,545,26,-525" Grid.Row="8"/>
+        <Button Content="Сохранить" Click="Save_Click" Margin="150,574,150,-549" Grid.Row="8"/>
+        <Button Content="Отмена" Click="Cancel_Click" Margin="273,574,27,-549" Grid.Row="8"/>
 
     </Grid>
 </Window>

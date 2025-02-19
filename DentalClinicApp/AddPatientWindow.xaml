@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DentalClinicApp"
         mc:Ignorable="d"
-        Title="AddPatientWindow" Height="600" Width="400">
+        Title="AddPatientWindow" Height="700" Width="400">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="213*"/>
@@ -34,16 +34,16 @@
         <Label Content="Дата рождения:" Grid.Row="7" Margin="10,143,10,-123" Grid.ColumnSpan="2"/>
         <DatePicker x:Name="DateOfBirthPicker" Grid.Row="7" Margin="10,174,10,-152" Grid.ColumnSpan="2"/>
 
-        <Label Content="Телефон:" Grid.Row="7" Margin="10,203,10,-183" Grid.ColumnSpan="2"/>
-        <TextBox x:Name="PhoneNumberTextBox" Grid.Row="7" Margin="10,234,10,-214" Grid.ColumnSpan="2"/>
+        <Label Content="Телефон:" Grid.Row="7" Margin="10,210,10,-190" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="PhoneNumberTextBox" Grid.Row="7" Margin="10,253,10,-233" Grid.ColumnSpan="2"/>
 
-        <Label Content="Адрес:" Grid.Row="7" Margin="10,265,10,-245" Grid.ColumnSpan="2"/>
-        <TextBox x:Name="AddressTextBox" Grid.Row="7" Margin="10,296,10,-276" Grid.ColumnSpan="2"/>
+        <Label Content="Адрес:" Grid.Row="7" Margin="10,294,10,-274" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="AddressTextBox" Grid.Row="7" Margin="10,332,10,-312" Grid.ColumnSpan="2"/>
 
-        <Label Content="История болезни:" Grid.Row="7" Margin="10,327,10,-307" Grid.ColumnSpan="2"/>
-        <TextBox x:Name="MedicalHistoryTextBox" Grid.Row="7" Margin="10,358,10,-338" Grid.ColumnSpan="2"/>
+        <Label Content="История болезни:" Grid.Row="7" Margin="10,382,10,-362" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="MedicalHistoryTextBox" Grid.Row="7" Margin="10,420,10,-400" Grid.ColumnSpan="2"/>
 
-        <Button Content="Сохранить" Click="Save_Click" Grid.Row="7" Margin="42,422,0,-412" HorizontalAlignment="Left" Width="110" Grid.Column="1"/>
+        <Button Content="Сохранить" Click="Save_Click" Grid.Row="7" Margin="54,473,0,-452" HorizontalAlignment="Left" Width="110" Grid.Column="1"/>
 
     </Grid>
 </Window>
